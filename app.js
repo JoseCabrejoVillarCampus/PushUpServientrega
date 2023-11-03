@@ -46,6 +46,7 @@ appExpress.use("/tiposeguro", appTipoDeSeguro);
 appExpress.use("/tiporuta", appTipoDeRuta);
 appExpress.use("/tipoenvio", appTipoDeEnvio);
 
+
 const config = JSON.parse(process.env.MY_CONGIG);
 appExpress.listen(config,
     ()=>console.log(`http://${config.hostname}:${config.port}`));

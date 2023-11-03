@@ -90,3 +90,38 @@ npm run dev
 
 <br><br>
 
+# END POINTS CRUD
+
+## GETS
+
+### TABLAS DISPONIBLES 
+
+```sql
+ClienteDireccion = direccionCliente
+Cliente = clientes
+Departamento = departamento
+DepartamentoMunicipio = departamentoMunicipios
+Direccion = direcciones
+DireccionMunicipio = direccionMunicipio
+Documento = documentos
+Email = emails
+Empleado = empleados
+IndicativoTelefono = indicativo
+Municipio = municipios
+OrdenDeEnvio = ordenesenvio
+Pais = paises
+Sucursal = sucursal
+Telefono = telefonos
+TipoDeEnvio = tipoenvio
+TipoDeRuta = tiporuta
+TipoDeSeguro = tiposeguro
+TipoDocumento= tipo_de_documentos
+``` 
+
+### Ejemplo
+
+```
+http://{localhost}:{port}/cliente/:id?
+```
+
+Donde el id es opcional para consultas por id
